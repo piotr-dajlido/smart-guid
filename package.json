@@ -1,0 +1,26 @@
+{
+  "name": "smart-guid",
+  "version": "0.0.1",
+  "description": "Small and smart GUID generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piotr-dajlido/smart-guid"
+  },
+  "keywords": [
+    "GUID",
+    "generator",
+    "uniqe",
+    "ID",
+    "random"
+  ],
+  "author": "Piotr Dajlido",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/piotr-dajlido/smart-guid/issues"
+  },
+  "homepage": "https://github.com/piotr-dajlido/smart-guid"
+}
