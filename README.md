@@ -21,7 +21,7 @@ Small and smart GUID / UUID generator.
 
 ### Args:
 
-*By default `SUID()` returns GUID  in pattern `xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx` for e.g.: `87B793D7-EDE3-4B2C-9CBE-72A436E08E1B`*
+*By default  `SUID()` returns GUID  in pattern  `xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx` for e.g.:  `87B793D7-EDE3-4B2C-9CBE-72A436E08E1B`*
 
 * `SUID( pattern )`
     * *pattern* `string` specifies the pattern in which all lowercase `x` and `y` will be replaced by generated `char`.
@@ -48,13 +48,13 @@ Small and smart GUID / UUID generator.
 
 ```js
 
-  var GUID = SUID(),                    // = 87B793D7-EDE3-4B2C-9CBE-72A436E08E1B   - GUID
-      UUID = SUID('xxx-5xx-Kyy'),       // = 369-57D-K98                            - UUID
+  var GUID = SUID(),                    // GUID = 87B793D7-EDE3-4B2C-9CBE-72A436E08E1B
+      UUID = SUID('xxx-5xx-Kyy'),       // UUID = 369-57D-K98
 
-      bUID = SUID('x-x-y-b', 2);        // = 0101-0100-1011-b                       - BINARY
-      BUID = SUID('x-x-y-B', 2, true);  // = 01100011-01110000-10000011-B           - BINARY_FULLBYTE
-      OUID = SUID('x-x-y-O', 8);        // = 2-7-11-O                               - OCTAL
-      HUID = SUID('x-x-y-H', 16);       // = 0-2-A-H                                - HEX
+      bUID = SUID('x-x-y-b', 2);        // BINARY = 0101-0100-1011-b
+      BUID = SUID('x-x-y-B', 2, true);  // BINARY_FULLBYTE = 01100011-01110000-10000011-B
+      OUID = SUID('x-x-y-O', 8);        // OCTAL = 2-7-11-O
+      HUID = SUID('x-x-y-H', 16);       // HEX = 0-2-A-H
 
 ```
 
