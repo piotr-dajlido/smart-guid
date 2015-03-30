@@ -36,7 +36,7 @@ Small and smart GUID / UUID generator.
     * Third param `boolean` have effect only in binary mode `base = 2` and returns full byte numbers ( 8 digits ).
 
 * Default
-    * `pattern : `xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx`
+    * `pattern : xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx`
     * `base : 16`
     * `fullByte : false`
 
