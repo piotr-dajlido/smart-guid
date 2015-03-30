@@ -21,24 +21,28 @@ Small and smart GUID / UUID generator.
 
 ### Args:
 
-* By default `SUID()` returns GUID  in pattern `xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx` for e.g.: `87B793D7-EDE3-4B2C-9CBE-72A436E08E1B`
+*By default `SUID()` returns GUID  in pattern `xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx` for e.g.: `87B793D7-EDE3-4B2C-9CBE-72A436E08E1B`*
 
 * `SUID( pattern )`
     * *pattern* `string` specifies the pattern in which all lowercase `x` and `y` will be replaced by generated `char`.
     * All `-` will be treated as delimiters, and returned intacted.
     * `y` chars are a result of `x & 0x3 | 0x8` bitwise operation.
 
+
 * `SUID( pattern, base )`
     * *base*`int` in range: 2-36 specifies the `string.base`.
     * *base* = 2 will return binary format ( half byte )
 
+
 * `SUID( pattern, base, fullByte )`
     * *fullByte* `boolean` have effect only in binary mode `base = 2` and returns full byte numbers ( 8 digits ).
 
-* Default
+
+* `Default`
     * `pattern : xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx`
     * `base : 16`
     * `fullByte : false`
+
 
 ### Example:
 
