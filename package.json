@@ -1,10 +1,10 @@
 {
   "name": "smart-guid",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Small and smart GUID generator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,14 @@
     "random"
   ],
   "author": "Piotr Dajlido",
+  "email" : "pdajlido@gmail.com",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/piotr-dajlido/smart-guid/issues"
   },
-  "homepage": "https://github.com/piotr-dajlido/smart-guid"
+  "homepage": "https://github.com/piotr-dajlido/smart-guid",
+  "devDependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.1"
+  }
 }
